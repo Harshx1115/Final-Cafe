@@ -1,0 +1,106 @@
+.menu-hero {
+  background-image: linear-gradient(135deg, rgba(217, 201, 179, 0.3), rgba(201, 180, 151, 0.7)), url('images/background.png');
+  background-size: cover;
+  background-position: center;
+  padding: 0 40px 80px;
+}
+
+.menu-hero-content {
+  max-width: 1240px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 70px 0 30px;
+}
+
+.menu-page-title {
+  font-family: 'Fraunces', serif;
+  font-weight: 900;
+  font-size: 110px;
+  color: white;
+  letter-spacing: -3px;
+  line-height: 1;
+}
+
+.menu-page-subtitle {
+  font-family: 'Fraunces', serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 36px;
+  color: white;
+  margin-top: 10px;
+}
+
+.menu-page-section {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 80px 40px;
+}
+
+.menu-intro {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.menu-intro-title {
+  font-family: 'Fraunces', serif;
+  font-weight: 900;
+  font-size: 44px;
+  color: #5a3826;
+  letter-spacing: -1px;
+  margin-bottom: 12px;
+}
+
+.menu-intro-text {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 16px;
+  color: #8a6e57;
+  max-width: 520px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+@media (max-width: 980px) {
+  .menu-page-title {
+    font-size: 84px;
+  }
+  .menu-page-subtitle {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 720px) {
+  .menu-hero {
+    padding: 0 20px 60px;
+  }
+  .menu-hero-content {
+    padding: 40px 0 20px;
+  }
+  .menu-page-title {
+    font-size: 56px;
+    letter-spacing: -1.5px;
+  }
+  .menu-page-subtitle {
+    font-size: 24px;
+  }
+  .menu-page-section {
+    padding: 50px 20px;
+  }
+  .menu-intro {
+    margin-bottom: 35px;
+  }
+  .menu-intro-title {
+    font-size: 32px;
+  }
+  .menu-intro-text {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 420px) {
+  .menu-page-title {
+    font-size: 44px;
+  }
+  .menu-page-subtitle {
+    font-size: 20px;
+  }
+}
